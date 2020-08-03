@@ -73,8 +73,7 @@ The currently configurable options and thresholds are listed below:
 Download script to desired directory and set it to be executable:
 
 	cd /root
-	git clone https://github.com/stephenlang/system-health-check
-	chmod 755 system-health-check/system-health-check.sh
+	chmod 755 system-health-check.sh
 
 After configuring the tunables in the script (see above), create a cron
 job to execute the script every 5 minutes:
